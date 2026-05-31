@@ -1,9 +1,9 @@
 name: Update Submodule
 
-on: push
-  # schedule:
-  #   - cron: '09 20 * * *'
-  # workflow_dispatch:
+on: 
+ schedule:
+    - cron: '17 05 * * *'
+    
     
 
 jobs:
