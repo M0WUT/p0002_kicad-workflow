@@ -9,6 +9,8 @@ on:
 jobs:
   update-submodule:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - name: Checkout top-level repo
         uses: actions/checkout@v4
@@ -20,6 +22,9 @@ jobs:
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@users.noreply.github.com"
+
+          git submodule status
+          git submodule foreach 'git status'
 
           git submodule foreach '
             git fetch origin
