@@ -3,3 +3,8 @@
 	url = https://github.com/M0WUT/p0002-pcb-001_kicad-template-pcb.git
 [submodule "pcb\\P0002-PCB-001_KicadTemplatePcb"]
 	branch = main
+[submodule "libraries/P0002-LIB-001_KicadComponentLibrary"]
+	path = libraries/P0002-LIB-001_KicadComponentLibrary
+	url = https://github.com/M0WUT/p0002-lib-001_kicad-component-library.git
+[submodule "libraries\\P0002-LIB-001_KicadComponentLibrary"]
+	branch = main

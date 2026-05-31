@@ -1,5 +1,9 @@
 # P0002 - KiCad workflow
 Tooling designed to assist with creation of KiCad projects
+## Asset Libraries
+| Reference | Name | Description | URL |
+| --- | --- | --- | --- |
+| P0002-LIB-001 | Kicad Component Library | M0WUT Kicad Libraries | https://github.com/m0wut/p0002-lib-001_kicad-component-library |
 ## KiCad PCB Projects
 | Reference | Name | Description | Repo URL | Github Pages Status | Image | Github Pages URL |
 | ---| ---| ---| ---| ---| ---| ---|

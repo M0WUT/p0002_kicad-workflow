@@ -11,6 +11,13 @@
                 "url": "https://github.com/m0wut/p0002-pcb-001_kicad-template-pcb",
                 "github_pages_url": "https://m0wut.github.io/p0002-pcb-001_kicad-template-pcb"
             }
+        },
+        "lib": {
+            "P0002-LIB-001": {
+                "name": "Kicad Component Library",
+                "description": "M0WUT Kicad Libraries",
+                "url": "https://github.com/m0wut/p0002-lib-001_kicad-component-library"
+            }
         }
     }
 }
