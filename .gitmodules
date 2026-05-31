@@ -8,3 +8,8 @@
 	url = https://github.com/M0WUT/p0002-lib-001_kicad-component-library.git
 [submodule "libraries\\P0002-LIB-001_KicadComponentLibrary"]
 	branch = main
+[submodule "software/P0002-SW-001_KicadReleaser"]
+	path = software/P0002-SW-001_KicadReleaser
+	url = https://github.com/M0WUT/p0002-sw-001_kicad-releaser.git
+[submodule "software\\P0002-SW-001_KicadReleaser"]
+	branch = main

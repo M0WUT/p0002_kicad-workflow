@@ -18,6 +18,13 @@
                 "description": "M0WUT Kicad Libraries",
                 "url": "https://github.com/m0wut/p0002-lib-001_kicad-component-library"
             }
+        },
+        "sw": {
+            "P0002-SW-001": {
+                "name": "Kicad Releaser",
+                "description": "Github actions tooling for generating KiCad artefacts in CI",
+                "url": "https://github.com/m0wut/p0002-sw-001_kicad-releaser"
+            }
         }
     }
 }
