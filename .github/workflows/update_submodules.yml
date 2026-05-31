@@ -1,0 +1,26 @@
+name: Update Submodule
+
+on:
+  schedule:
+    - cron: '30 5 * * *'
+
+jobs:
+  update-submodule:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout top-level repo
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Update submodules to latest
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@users.noreply.github.com"
+          git submodule update --remote --merge
+          git add .
+          git commit -m "Automatically pulled submodules"
+          git push origin main
+        # ignore error if no changes
+        continue-on-error: true
