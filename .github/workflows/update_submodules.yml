@@ -1,8 +1,8 @@
 name: Update Submodule
 
-on: 
- schedule:
-    - cron: '17 05 * * *'
+on: push 
+#  schedule:
+#     - cron: '17 05 * * *'
     
     
 
