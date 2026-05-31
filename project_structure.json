@@ -3,5 +3,14 @@
     "name": "KiCad workflow",
     "description": "Tooling designed to assist with creation of KiCad projects",
     "url": "https://github.com/m0wut/p0002_kicad-workflow",
-    "documents": {}
+    "documents": {
+        "pcb": {
+            "P0002-PCB-001": {
+                "name": "KiCad Template PCB",
+                "description": "Template PCB that new Kicad projects will be based on.",
+                "url": "https://github.com/m0wut/p0002-pcb-001_kicad-template-pcb",
+                "github_pages_url": "https://m0wut.github.io/p0002-pcb-001_kicad-template-pcb"
+            }
+        }
+    }
 }

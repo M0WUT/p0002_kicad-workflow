@@ -1,0 +1,5 @@
+[submodule "pcb/P0002-PCB-001_KicadTemplatePcb"]
+	path = pcb/P0002-PCB-001_KicadTemplatePcb
+	url = https://github.com/M0WUT/p0002-pcb-001_kicad-template-pcb.git
+[submodule "pcb\\P0002-PCB-001_KicadTemplatePcb"]
+	branch = main
